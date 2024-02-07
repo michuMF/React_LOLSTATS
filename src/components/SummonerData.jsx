@@ -19,7 +19,7 @@ const SummonerData = () => {
 		return <p>Error</p>
 	}
 	return (
-		<div className=' rounded-lg bg-black text-white text-xl text-center p-2 mx-20'>
+		<div className=' rounded-lg bg-black text-white text-xl text-center p-2 mx-20 mt-28 '>
 			<h2>{summonerData?.name}</h2>
 			<p className='my-5'>id: {summonerData?.id}</p>
 			<p>puuid: {summonerData.puuid}</p>

@@ -1,26 +1,27 @@
 export const TagColorChange = (tag, tagColor, type) => {
 	if (type === "button") {
-		const buttonShape = "rounded-lg  p-2 px-2"
+		const buttonShape =
+			"rounded-lg border-none p-2 px-2 text-md shadow  font-bold "
 		if (tag === "Assassin") {
-			tagColor = ` bg-assassin  border-black border ${buttonShape} `
+			tagColor = ` bg-assassin  ${buttonShape} `
 		}
 		if (tag === "Mage") {
-			tagColor = `${buttonShape} bg-mage  border-black border `
+			tagColor = `${buttonShape} bg-mage  border `
 		}
 		if (tag === "Marksman") {
-			tagColor = `${buttonShape} bg-marksman  border-black border `
+			tagColor = `${buttonShape} bg-marksman   `
 		}
 		if (tag === "Support") {
-			tagColor = `${buttonShape} bg-support  border-black border `
+			tagColor = `${buttonShape} bg-support  `
 		}
 		if (tag === "Tank") {
-			tagColor = `${buttonShape} bg-tank  border-black border `
+			tagColor = `${buttonShape} bg-tank   `
 		}
 		if (tag === "Fighter") {
-			tagColor = `${buttonShape} bg-fighter  border-black border `
+			tagColor = `${buttonShape} bg-fighter  `
 		}
 		if (tag === "Support") {
-			tagColor = `${buttonShape} bg-support  border-black border `
+			tagColor = `${buttonShape} bg-support   `
 		}
 	}
 
@@ -42,27 +43,6 @@ export const TagColorChange = (tag, tagColor, type) => {
 		}
 		if (tag === "Fighter") {
 			tagColor = ` bg-fighter   `
-		}
-	}
-
-	if (type === "state") {
-		if (tag === "Assassin") {
-			tagColor = `   text-mage  `
-		}
-		if (tag === "Mage") {
-			tagColor = `  text-assassin  `
-		}
-		if (tag === "Marksman") {
-			tagColor = `  text-support  `
-		}
-		if (tag === "Support") {
-			tagColor = `   text-marksman   `
-		}
-		if (tag === "Tank") {
-			tagColor = `  text-fighter   `
-		}
-		if (tag === "Fighter") {
-			tagColor = ` text-tank   `
 		}
 	}
 

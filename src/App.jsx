@@ -1,10 +1,11 @@
 import { QueryClient, QueryClientProvider } from "react-query"
 import SummonerData from "./components/SummonerData"
 import Champions from "./components/Champions"
-import ChampionDetails from "./components/champion/ChampionDetails"
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Home from "./components/Home"
 import Root from "./components/Root"
+import ChampionDetails from "./components/champion/championDetails/ChampionDetails"
 const queryClient = new QueryClient()
 
 function App() {

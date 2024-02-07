@@ -7,7 +7,7 @@ const SearchChampion = ({ changeHandler, inputRef }) => {
 				htmlFor='search'>
 				Search Champion
 			</label>
-			<div className='relative flex items-center'>
+			<div className='relative flex items-center z-0'>
 				<input
 					type='text'
 					className='border  py-1 px-4 rounded-md border-black md:py-2 md:px-4'

@@ -39,7 +39,7 @@ const Champions = () => {
 		return <Error />
 	}
 	return (
-		<div className='flex flex-col bg-black'>
+		<div className='flex flex-col min-h-screen bg-black '>
 			<SearchChampion changeHandler={changeHandler} inputRef={inputRef} />
 			<ul className='flex flex-wrap gap-10 items-center justify-center'>
 				{filter?.map(champion => {
